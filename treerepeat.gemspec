@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Treerepeat::VERSION
   spec.authors       = ["vmamaev"]
   spec.email         = ["ad1r@yandex.ru"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Angular tree view}
+  spec.description   = %q{Gem for rails which build tree by json object}
   spec.homepage      = ""
   spec.license       = "MIT"
 
