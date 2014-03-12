@@ -1,0 +1,45 @@
+.tree-repeat {
+  > ul {
+    margin:0;
+  }
+  ul li {
+
+    //display: inline-block;
+    //padding: 5px 15px 5px 15px;
+    //border-left: 2px solid grey;
+    &:first-child {
+      border-left: none;
+    }
+  }
+  li {
+    list-style-type: none;
+  }
+  .icon {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+  }
+  .expanded {
+    background-image: image-url('tree-repeat/expanded.png');
+  }
+  .collapsed {
+    background-image: image-url('tree-repeat/collapsed.png');
+  }
+  .lbl {
+    color: green;
+    cursor: pointer;
+  }
+  .lbl.folder {
+    color: darkmagenta;
+  }
+  .active > div > .lbl {
+    color: #F89406;
+  }
+}
+.tree-repeat ul .tree-drag > div > span.lbl {
+  background-color: lightsalmon;
+}
+.tree-repeat .tree-drag-over > div > span.lbl {
+  background-color: darkseagreen;
+}
